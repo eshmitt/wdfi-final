@@ -1,0 +1,39 @@
+@import "../../variables";
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100%;
+}
+
+.logo {
+  margin-bottom: 20px;
+}
+
+.headerText {
+  margin-bottom: 15px;
+  color: $primary-grey;
+}
+
+.text {
+  color: $primary-grey;
+  margin-left: 10px;
+}
+
+.alternativeText {
+  color: $primary-grey;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.socialContainer {
+  display: flex;
+  width: 125px;
+  justify-content: space-evenly;
+}
+
+.socialLogo {
+  width: 30px;
+}
