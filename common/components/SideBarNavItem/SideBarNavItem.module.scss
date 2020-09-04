@@ -1,0 +1,17 @@
+@import "../../../variables";
+
+.navItem {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.text {
+  margin-top: 10px;
+}
+
+.active {
+  color: $primary-red;
+}

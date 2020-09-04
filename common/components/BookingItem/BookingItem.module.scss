@@ -1,0 +1,15 @@
+@import "../../../variables";
+
+.item {
+  margin: 0 100px 0 100px;
+  cursor: pointer;
+}
+
+.image {
+  width: 175px;
+}
+
+.text {
+  color: $primary-grey;
+  text-align: center;
+}
